@@ -12,4 +12,11 @@ function nowServing(d){
     return n
   }
 }
-function currentLine(d)
+function currentLine(d){
+  var x = d.length;
+  var l = 1 
+  var m = "the "
+  while (x>0) { 
+    
+  }
+}
