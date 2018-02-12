@@ -3,5 +3,7 @@ function takeANumber(l,n){
   return `Welcome, ${n} You are number ${x} in line.`
 }
 function nowServing(){
-  if ()
+  if (katzDeli.length === 0){
+    return "There "
+  }
 }
