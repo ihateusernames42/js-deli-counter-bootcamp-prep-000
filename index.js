@@ -24,7 +24,7 @@ function currentLine(d){
     while (x>0) {m = m + l.toString() + ". " + d[l-1] ;
     x--
     l++
-    if (x>1){
+    if (x>0){
       m= m + ", "
     }
     }
