@@ -10,7 +10,7 @@ function nowServing(d){
   else { 
     var n = d[0]
     d.unshift[0]
-    return n
+    return `Currently serving ${n}.`
   }
 }
 function currentLine(d){
