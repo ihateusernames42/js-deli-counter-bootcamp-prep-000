@@ -9,7 +9,7 @@ function nowServing(d){
   }
   else { 
     var n = d[0]
-    unshift.d[0]
+    d.unshift[0]
     return n
   }
 }
