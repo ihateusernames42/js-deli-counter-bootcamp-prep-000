@@ -1,3 +1,7 @@
 function takeANumber(l,n){
-  Welcome, ${n} You are number  in line.
+  var x = l.length + 1 
+  return `Welcome, ${n} You are number ${x} in line.`
+}
+function nowServing(){
+  if ()
 }
