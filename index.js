@@ -13,12 +13,14 @@ function nowServing(d){
   }
 }
 function currentLine(d){
+  if (d.length === 0){
+    return "The"
+  }
   var x = d.length;
   var l = 1 
   var m = "The line is currently:"
   while (x>0) {m = m + l.toString() + "." + d[l-1];
-    
-  }
-    
+    x--
+    l++
   }
 }
