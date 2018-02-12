@@ -16,7 +16,7 @@ function currentLine(d){
   var x = d.length;
   var l = 1 
   var m = "The line is currently:"
-  while (x>0) {m = m + l + "." + d[l-1];
+  while (x>0) {m = m + l. + "." + d[l-1];
     
   }
     
